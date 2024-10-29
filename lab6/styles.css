@@ -1,0 +1,66 @@
+/* 1. Основний стиль для всього документу */
+body {
+  font-family: serif;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #777;
+  text-align: justify;
+}
+
+/* 2. Курсивний жирний стиль для вкладених списків */
+ul ul {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* 3. Стилі для заголовків */
+h1,
+h2 {
+  font-family: "Cormorant Infant", serif;
+  letter-spacing: 0.5px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+/* 4. Розмір для заголовків першого рівня */
+h1 {
+  font-size: 32px;
+}
+
+/* 5. Розмір для заголовків другого рівня */
+h2 {
+  font-size: 26px;
+  margin-top: 60px; /* 14. Верхній зовнішній відступ */
+  margin-bottom: 0; /* 14. Нижній зовнішній відступ */
+}
+
+/* 6. Подвійний міжрядковий інтервал для другого абзацу */
+.double-line {
+  line-height: 2;
+}
+
+/* 7. Стиль для блоку з класом mail-box */
+.mail-box {
+  width: 150px;
+  background-color: #e3fff6;
+  border: 5px solid #c2e4c2;
+  padding: 5px 20px;
+  box-sizing: border-box; /* 8. Застосування box-sizing */
+  word-wrap: break-word; /* 9. Ламання тексту */
+}
+
+/* 10. Початок тексту з нового рядка для email */
+.mail-box a {
+  display: block;
+}
+
+/* 12. Стиль для блоку переваг */
+.our-adv {
+  background-image: url("http://picsum.photos/id/357/700/400?blur=5");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  color: white;
+  font-size: 16px;
+}
